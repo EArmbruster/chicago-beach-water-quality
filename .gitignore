@@ -1,0 +1,25 @@
+# Raw data (see README for download instructions)
+data/**/*.csv
+data/**/*.txt
+data/raw/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# IDE / tools
+.claude/
+.vscode/
+*.code-workspace
+
+# Office temp files
+~$*
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

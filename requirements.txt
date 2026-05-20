@@ -1,0 +1,7 @@
+duckdb
+lightgbm
+matplotlib
+numpy
+pandas
+scikit-learn
+xgboost
