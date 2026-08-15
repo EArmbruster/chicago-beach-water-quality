@@ -1,6 +1,12 @@
 # Literature
 literature/
 
+# Local working records: verification scripts, the pre-restructure notebook
+# backup, and the regression baseline. Deliberately NOT tracked — these are a
+# private record of how the pipeline restructure was validated, not part of the
+# analysis. See scripts/README.md. Deleting scripts/ breaks nothing.
+scripts/
+
 # Raw data (see README for download instructions)
 data/**/*.csv
 data/**/*.txt
