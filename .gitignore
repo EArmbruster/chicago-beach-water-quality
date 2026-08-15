@@ -1,3 +1,6 @@
+# Literature
+literature/
+
 # Raw data (see README for download instructions)
 data/**/*.csv
 data/**/*.txt
