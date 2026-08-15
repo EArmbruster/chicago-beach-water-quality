@@ -1,0 +1,273 @@
+{
+  "run_id": "20260814_215401_wind_geo",
+  "label": "wind_geo",
+  "timestamp": "2026-08-14T21:54:01",
+  "elapsed_sec": 2731.8,
+  "recipe_sha256": "d6c3fc9a39effae538f9372306738e53c9fdfc98b72a295f8a7bf7d9dbbbf363",
+  "notebook_sha256": "18354ad19cb47c08a869e10e9b6277f014aca339de7b5b20e66083687bfac439",
+  "git_commit": "fe1cbdc965738f6ed4b9da04a411051d4e5ad1ed",
+  "git_dirty": true,
+  "python": "3.11.6",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "1.26.4",
+    "duckdb": "1.5.2"
+  },
+  "beaches_requested": [
+    "leone",
+    "osterman",
+    "foster",
+    "montrose",
+    "north_avenue",
+    "oak_street",
+    "ohio_street",
+    "margaret_t_burroughs_31st",
+    "oakwood",
+    "57th_street",
+    "63rd_street",
+    "south_shore",
+    "rainbow"
+  ],
+  "beaches_modelled": [
+    "57th_street",
+    "63rd_street",
+    "leone",
+    "margaret_t_burroughs_31st",
+    "montrose",
+    "ohio_street",
+    "rainbow",
+    "south_shore"
+  ],
+  "beaches_skipped": [
+    "osterman",
+    "foster",
+    "north_avenue",
+    "oak_street",
+    "oakwood"
+  ],
+  "resolved_stations": {
+    "leone|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "osterman|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "foster|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "montrose|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "north_avenue|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "oak_street|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "ohio_street|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "margaret_t_burroughs_31st|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "oakwood|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "57th_street|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "63rd_street|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "south_shore|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    },
+    "rainbow|wind_geo": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    }
+  },
+  "n_result_rows": 40,
+  "n_sweep_rows": 224
+}
