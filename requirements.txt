@@ -5,3 +5,11 @@ numpy
 pandas
 scikit-learn
 xgboost
+seaborn
+requests
+
+# Notebook tooling
+jupyter
+# Strips notebook outputs on commit so git diffs show code changes only.
+# After install, enable once per clone:  nbstripout --install --attributes .gitattributes
+nbstripout
