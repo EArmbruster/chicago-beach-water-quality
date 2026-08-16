@@ -27,9 +27,6 @@ Precipitation features: Cumulative rainfall (sum) and peak intensity (max) at mu
 Wind features: Mean/max wind speed, onshore and alongshore wind components decomposed relative to each beach's facing direction (Madani & Seth, 2020)
 Geomorphology interaction: Groin-adjusted onshore wind exposure combining downstream groin length with onshore wind fraction and speed (Mattheus et al., 2022)
 
-Upcoming Features:
-Combined Sewer Overflows: Events when sewers overflow into waterways, including the date, window of time, point where overflow occured and reach of sewer overflow.
-
 ### Classification Models
 
 - Logistic Regression (baseline, L2-regularized, class-weighted)
@@ -44,7 +41,7 @@ Current classification results are poor, with the beaches that have the best res
 
 ## Continuing Work
 
-Current work is being done to add sewer overflow features.
+Continuing work could be done to add more precipitation coverage or test the impact of water temperature on modeling results. Sewer overflow is no longer being pursued after only on sewer overflow event was found to have reached lake michigan (2023) for this case.
 
 ## Repository Structure
 
