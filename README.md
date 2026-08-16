@@ -38,6 +38,7 @@ Geomorphology interaction: Groin-adjusted onshore wind exposure combining downst
 
 Key results can be compared to the 2017 modeling of these same beaches: https://github.com/Chicago/clear-water
 Current classification results are poor, with the beaches that have the best results giving around a 35 percent error. 
+Adding Geomorphology features does not decrease classification errors.
 
 ## Continuing Work
 
