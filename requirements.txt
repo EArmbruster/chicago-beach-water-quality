@@ -1,15 +1,26 @@
-duckdb
-lightgbm
-matplotlib
-numpy
-pandas
-scikit-learn
-xgboost
-seaborn
-requests
+# Pinned to the versions that produced the runs in experiments/.
+# meta.json records the environment of each run; pinning is what makes that
+# record reproducible rather than coincidental.
+duckdb==1.5.2
+lightgbm==4.6.0
+matplotlib==3.10.0
+numpy==1.26.4
+pandas==2.3.3
+pyarrow==24.0.0
+scikit-learn==1.9.0
+xgboost==3.2.0
+seaborn==0.13.2
+requests==2.32.4
 
 # Notebook tooling
-jupyter
+jupyterlab==4.4.4
+nbconvert==7.16.6
+ipykernel==6.29.5
+# Required, not optional: the Setup cell calls duckdb.execute("SET
+# enable_progress_bar = false"), and duckdb refuses that setting unless
+# ipywidgets is importable. Previously supplied implicitly by the `jupyter`
+# metapackage.
+ipywidgets==8.1.5
 # Strips notebook outputs on commit so git diffs show code changes only.
 # After install, enable once per clone:  nbstripout --install --attributes .gitattributes
-nbstripout
+nbstripout==0.9.1
