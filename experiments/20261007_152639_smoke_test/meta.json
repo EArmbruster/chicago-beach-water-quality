@@ -1,0 +1,44 @@
+{
+  "run_id": "20261007_152639_smoke_test",
+  "label": "smoke_test",
+  "timestamp": "2026-10-07T15:26:39",
+  "elapsed_sec": 43.0,
+  "recipe_sha256": "1cf8a30ff6e25ffd1605191b267af2b5c217d39eedfc63e5825e15ae1cda8a2d",
+  "notebook_sha256": "71149bf65affe54c358891a50c16a8e7b5f67c39dc58680620d24ff5807c2c1a",
+  "git_commit": "fcde9cdb8eac2429b57ec0474f0867839861066d",
+  "git_dirty": true,
+  "python": "3.11.6",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "1.26.4",
+    "duckdb": "1.5.2"
+  },
+  "beaches_requested": [
+    "montrose"
+  ],
+  "beaches_modelled": [
+    "montrose"
+  ],
+  "beaches_skipped": [],
+  "resolved_stations": {
+    "montrose|smoke_test": {
+      "coc": [
+        "foster",
+        "oak_street",
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago",
+        "oakton_college_at_skokie",
+        "winnetka_golf_club_at_winnetka",
+        "cicero",
+        "north_austin",
+        "lake_view"
+      ]
+    }
+  },
+  "n_result_rows": 5,
+  "n_sweep_rows": 28
+}
