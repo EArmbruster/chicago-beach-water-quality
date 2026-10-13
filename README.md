@@ -104,9 +104,6 @@ Two structural guarantees:
 | `"radius"` | every station within `max_km`, nearest first, with a `min_stations` floor |
 | `"knn"` | the `k` nearest stations |
 
-Upcoming: Combined Sewer Overflow features — event date, duration window,
-outfall location, and reach of the overflow.
-
 ### Classification Models
 
 - `dummy` (most-frequent baseline), logistic regression (median-impute →
@@ -179,10 +176,15 @@ Two readings of this:
 
 ## Continuing Work
 
-- Sewer overflow features (`features.sewer`, declared but not yet implemented)
 - Handling the `63rd_street` station outage before the distance-selection
   comparison can be trusted
 - Pooled / multi-beach models, given how few positives each beach has on its own
+- Wider precipitation coverage, and testing whether water temperature carries
+  any signal
+
+Not being pursued: combined sewer overflow features. Only one CSO event (2023)
+was found to have reached Lake Michigan in this period, so the feature is not
+worth the join complexity on current evidence.
 
 ## Repository Structure
 
