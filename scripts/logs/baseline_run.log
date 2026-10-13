@@ -1,0 +1,10 @@
+read /Users/emily/Documents/chicago-beach-water-quality/Final_feature_building.ipynb: 39 cells
+
+wrote executed copy -> /private/tmp/claude-501/-Users-emily-Documents-chicago-beach-water-quality/3a5cb66a-642f-4d29-8fb4-84d8c5b678e2/scratchpad/baseline_executed.ipynb
+
+STATUS=OK elapsed=4047.2s
+
+--- save cell ---
+BASELINE_SAVED results (80, 16) sweeps (448, 11)
+BASELINE_COLUMNS ['accuracy', 'beach', 'f1', 'false_neg', 'false_pos', 'model', 'n_features', 'n_test_pos', 'n_train_pos', 'pr_auc', 'precision', 'recall', 'recipe_label', 'roc_auc', 'true_neg', 'true_pos']
+

@@ -1,0 +1,9 @@
+executing Final_feature_building.ipynb: 33 cells
+
+STATUS=OK elapsed=1110s
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/-Users-emily-Documents-chicago-beach-water-quality/3a5cb66a-642f-4d29-8fb4-84d8c5b678e2/scratchpad/run_step4.py", line 57, in <module>
+    import pipeline_draft as P
+  File "/private/tmp/claude-501/-Users-emily-Documents-chicago-beach-water-quality/3a5cb66a-642f-4d29-8fb4-84d8c5b678e2/scratchpad/pipeline_draft.py", line 40, in <module>
+    from station_locations import station_distances_km, validate_station_names
+ModuleNotFoundError: No module named 'station_locations'
