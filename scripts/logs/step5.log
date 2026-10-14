@@ -1,0 +1,39 @@
+executing Final_feature_building.ipynb: 36 cells
+
+STATUS=OK elapsed=4562s
+copied executed notebook -> /Users/emily/Documents/chicago-beach-water-quality/Final_feature_building.ipynb
+
+=== check 1: all_stations vs baseline wind_geo (40 vs 40 rows) ===
+*** IDENTICAL ***
+
+=== check 2: features per beach by recipe ===
+recipe_label               all_stations  radius_d15  radius_d10
+beach                                                          
+57th_street                        70.0        40.0        35.0
+63rd_street                        70.0        40.0        35.0
+leone                              70.0        45.0        30.0
+margaret_t_burroughs_31st          70.0        50.0        35.0
+montrose                           70.0        50.0        30.0
+ohio_street                        70.0        55.0        35.0
+rainbow                            70.0        35.0        30.0
+south_shore                        70.0        35.0        30.0
+
+=== best PR-AUC per beach ===
+recipe_label               all_stations  radius_d10  radius_d15
+beach                                                          
+57th_street                      0.0427      0.0859      0.0736
+63rd_street                      0.3472      0.3364      0.3118
+leone                            0.2269      0.2341      0.1632
+margaret_t_burroughs_31st        0.1781      0.1217      0.1120
+montrose                         0.3941      0.4665      0.3667
+ohio_street                      0.3812      0.3351      0.3966
+rainbow                          0.3881      0.0833      0.0665
+south_shore                      0.2071      0.2240      0.2634
+
+mean:
+recipe_label
+all_stations    0.2707
+radius_d10      0.2359
+radius_d15      0.2192
+radius_d10 beat all_stations at 4/8 beaches
+radius_d15 beat all_stations at 3/8 beaches

@@ -1,0 +1,48 @@
+executing Final_feature_building.ipynb: 36 cells
+
+STATUS=OK elapsed=3443s
+copied executed notebook -> /Users/emily/Documents/chicago-beach-water-quality/Final_feature_building.ipynb
+
+=== runs on disk ===
+                     nunique                         first
+recipe_label is_new                                       
+all_stations False         1  20260814_220135_all_stations
+             True          1  20260815_174446_all_stations
+radius_d10   False         1    20260814_220440_radius_d10
+             True          1    20260815_174750_radius_d10
+radius_d15   False         1    20260814_220900_radius_d15
+             True          1    20260815_175211_radius_d15
+smoke_test   False         2    20260814_200212_smoke_test
+             True          1    20260815_165537_smoke_test
+wind_geo     False         2      20260814_201746_wind_geo
+             True          1      20260815_173646_wind_geo
+wind_only    False         2     20260814_201021_wind_only
+             True          1     20260815_170653_wind_only
+
+=== mean PR-AUC, pre-fix vs post-fix ===
+      recipe  n_pairs  pr_auc_pre  pr_auc_post   delta  better
+all_stations       32      0.1922       0.1772 -0.0151       9
+   wind_only       64      0.1912       0.1895 -0.0017      26
+    wind_geo       64      0.1922       0.1772 -0.0151      18
+  radius_d10       32      0.1719       0.1639 -0.0079      15
+  radius_d15       32      0.1745       0.1741 -0.0004      16
+
+=== best PR-AUC per beach, post-fix ===
+recipe_label               all_stations  wind_only  wind_geo  radius_d10  radius_d15
+beach                                                                               
+57th_street                      0.0419     0.0436    0.0419      0.0946      0.1170
+63rd_street                      0.3443     0.3361    0.3443      0.3247      0.2761
+leone                            0.1589     0.1907    0.1589      0.1493      0.1311
+margaret_t_burroughs_31st        0.1663     0.1563    0.1663      0.1134      0.1306
+montrose                         0.4360     0.5031    0.4360      0.3474      0.4119
+ohio_street                      0.3787     0.3582    0.3787      0.3770      0.3710
+rainbow                          0.2917     0.2812    0.2917      0.0756      0.0741
+south_shore                      0.1343     0.1612    0.1343      0.2252      0.2737
+
+mean:
+recipe_label
+all_stations    0.2440
+wind_only       0.2538
+wind_geo        0.2440
+radius_d10      0.2134
+radius_d15      0.2232

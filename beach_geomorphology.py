@@ -27,7 +27,7 @@ Source values:
                    Example given: Clark St. Beach (#4).
         - None: beach not classified by Mattheus, or not in the paper.
 
-Beach key matching (NEEDS USER VERIFICATION):
+Beach key matching:
     The keys in BEACH_GEOMORPHOLOGY below are the names used in the user's
     `Beach` column. The Mattheus paper uses different names for some beaches.
     Confident matches are those where Mattheus's UTM coordinates agree closely
@@ -93,7 +93,7 @@ BEACH_GEOMORPHOLOGY: dict[str, BeachRecord] = {
     },
     #doesn't profile this beach either
     "hartigan_albion": {
-        "mattheus_id": None,  # not confidently matched
+        "mattheus_id": None,  # not confidently matched, dropping
         "embayment_area_m2": None,
         "embayment_perimeter_m": None,
         "shape_index": None,
@@ -182,11 +182,6 @@ BEACH_GEOMORPHOLOGY: dict[str, BeachRecord] = {
         "notes": ("confident match; excluded from rotation analysis due to "
                   "inundation and groin scour"),
     },
-
-    # ============================================================
-    # DOWNTOWN BEACHES
-    # ============================================================
-
     # north_avenue: Mattheus's #14 "North Avenue Beach". Confident match.
     "north_avenue": {
         "mattheus_id": 14,

@@ -1,0 +1,79 @@
+{
+  "features": {
+    "distance": {
+      "enabled": false
+    },
+    "precip": {
+      "enabled": true,
+      "max_windows_hours": [
+        6
+      ],
+      "sources": [
+        {
+          "bucket_minutes": 60,
+          "df_name": "beach_coc_precip_df",
+          "label": "coc",
+          "station_col": "station_name",
+          "stations": [
+            "foster",
+            "oak_street",
+            "63rd_street"
+          ],
+          "ts_col": "timestamp_central",
+          "value_col": "coc_mmprecip_sum1h"
+        },
+        {
+          "bucket_minutes": 5,
+          "df_name": "usgs_precip_df",
+          "label": "usgs",
+          "station_col": "station_name",
+          "stations": [
+            "south_shore",
+            "hamilton_park_at_chicago",
+            "ping_tom_park_at_chicago",
+            "oakton_college_at_skokie",
+            "winnetka_golf_club_at_winnetka",
+            "cicero",
+            "north_austin",
+            "lake_view"
+          ],
+          "ts_col": "timestamp_central",
+          "value_col": "usgs_mmprecip_sum5m"
+        }
+      ],
+      "station_selection": {
+        "mode": "all"
+      },
+      "sum_windows_hours": [
+        6,
+        24,
+        48,
+        72
+      ]
+    },
+    "sewer": {
+      "enabled": false
+    },
+    "temp": {
+      "enabled": false
+    },
+    "wind": {
+      "df_name": "chii2_wind_df",
+      "enabled": true,
+      "min_coverage": 0.5,
+      "tolerance_deg": 20,
+      "use_geo_features": true,
+      "windows_hours": [
+        6,
+        12,
+        24
+      ]
+    }
+  },
+  "label": "all_stations",
+  "min_year": 2021,
+  "target": {
+    "threshold": 1000
+  },
+  "target_beach": "montrose"
+}

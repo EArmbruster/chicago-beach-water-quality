@@ -1,0 +1,208 @@
+{
+  "run_id": "20261007_160440_radius_d15",
+  "label": "radius_d15",
+  "timestamp": "2026-10-07T16:04:40",
+  "elapsed_sec": 312.7,
+  "recipe_sha256": "d3c2b99b6766664f0be00084df94d0311ab7ac6890ac32d0fc5b6d9f1c4057cb",
+  "notebook_sha256": "71149bf65affe54c358891a50c16a8e7b5f67c39dc58680620d24ff5807c2c1a",
+  "git_commit": "fcde9cdb8eac2429b57ec0474f0867839861066d",
+  "git_dirty": true,
+  "python": "3.11.6",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "1.26.4",
+    "duckdb": "1.5.2"
+  },
+  "beaches_requested": [
+    "leone",
+    "osterman",
+    "foster",
+    "montrose",
+    "north_avenue",
+    "oak_street",
+    "ohio_street",
+    "margaret_t_burroughs_31st",
+    "oakwood",
+    "57th_street",
+    "63rd_street",
+    "south_shore",
+    "rainbow"
+  ],
+  "beaches_modelled": [
+    "57th_street",
+    "63rd_street",
+    "leone",
+    "margaret_t_burroughs_31st",
+    "montrose",
+    "ohio_street",
+    "rainbow",
+    "south_shore"
+  ],
+  "beaches_skipped": [
+    "osterman",
+    "foster",
+    "north_avenue",
+    "oak_street",
+    "oakwood"
+  ],
+  "resolved_stations": {
+    "leone|radius_d15": {
+      "coc": [
+        "foster",
+        "oak_street"
+      ],
+      "usgs": [
+        "oakton_college_at_skokie",
+        "lake_view",
+        "winnetka_golf_club_at_winnetka",
+        "north_austin"
+      ]
+    },
+    "osterman|radius_d15": {
+      "coc": [
+        "foster",
+        "oak_street"
+      ],
+      "usgs": [
+        "lake_view",
+        "oakton_college_at_skokie",
+        "north_austin",
+        "ping_tom_park_at_chicago"
+      ]
+    },
+    "foster|radius_d15": {
+      "coc": [
+        "foster",
+        "oak_street"
+      ],
+      "usgs": [
+        "lake_view",
+        "oakton_college_at_skokie",
+        "north_austin",
+        "ping_tom_park_at_chicago"
+      ]
+    },
+    "montrose|radius_d15": {
+      "coc": [
+        "foster",
+        "oak_street"
+      ],
+      "usgs": [
+        "lake_view",
+        "oakton_college_at_skokie",
+        "ping_tom_park_at_chicago",
+        "north_austin",
+        "cicero"
+      ]
+    },
+    "north_avenue|radius_d15": {
+      "coc": [
+        "oak_street",
+        "foster"
+      ],
+      "usgs": [
+        "lake_view",
+        "ping_tom_park_at_chicago",
+        "cicero",
+        "north_austin"
+      ]
+    },
+    "oak_street|radius_d15": {
+      "coc": [
+        "oak_street",
+        "foster",
+        "63rd_street"
+      ],
+      "usgs": [
+        "lake_view",
+        "ping_tom_park_at_chicago",
+        "cicero",
+        "north_austin"
+      ]
+    },
+    "ohio_street|radius_d15": {
+      "coc": [
+        "oak_street",
+        "foster",
+        "63rd_street"
+      ],
+      "usgs": [
+        "ping_tom_park_at_chicago",
+        "lake_view",
+        "cicero",
+        "north_austin",
+        "hamilton_park_at_chicago"
+      ]
+    },
+    "margaret_t_burroughs_31st|radius_d15": {
+      "coc": [
+        "63rd_street",
+        "oak_street"
+      ],
+      "usgs": [
+        "ping_tom_park_at_chicago",
+        "hamilton_park_at_chicago",
+        "south_shore",
+        "lake_view",
+        "cicero"
+      ]
+    },
+    "oakwood|radius_d15": {
+      "coc": [
+        "63rd_street",
+        "oak_street"
+      ],
+      "usgs": [
+        "ping_tom_park_at_chicago",
+        "hamilton_park_at_chicago",
+        "south_shore",
+        "cicero",
+        "lake_view"
+      ]
+    },
+    "57th_street|radius_d15": {
+      "coc": [
+        "63rd_street",
+        "oak_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago"
+      ]
+    },
+    "63rd_street|radius_d15": {
+      "coc": [
+        "63rd_street",
+        "oak_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago"
+      ]
+    },
+    "south_shore|radius_d15": {
+      "coc": [
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago"
+      ]
+    },
+    "rainbow|radius_d15": {
+      "coc": [
+        "63rd_street"
+      ],
+      "usgs": [
+        "south_shore",
+        "hamilton_park_at_chicago",
+        "ping_tom_park_at_chicago"
+      ]
+    }
+  },
+  "n_result_rows": 40,
+  "n_sweep_rows": 224
+}
